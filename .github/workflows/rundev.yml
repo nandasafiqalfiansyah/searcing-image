@@ -1,25 +1,17 @@
 name: Run Dev
 
 on:
-  push:
-    branches:
-      - master
-
+  release:
+    types: [published]
 jobs:
-  rundev:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - uses: 'actions/checkout@v1'
+      - uses: 'actions/setup-node@v1'
         with:
-          node-version: 14
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run start-dev
-        run: npm run start-dev
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: 'npm publish --access=public'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
