@@ -1,6 +1,6 @@
 # Searching Image
 
-This is a simple website that allows users to search for images. The website is built using NPM, Webpack, and other tools to provide an efficient and user-friendly experience for searching and displaying images.
+This is a website that allows users to search for images. The website is built using NPM, Webpack, and other tools to provide an efficient and user-friendly experience for searching and displaying images.
 
 ## Features
 
