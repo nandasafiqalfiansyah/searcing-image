@@ -1,4 +1,4 @@
-# Searching Images Website
+# Searching Image
 
 This is a simple website that allows users to search for images. The website is built using NPM, Webpack, and other tools to provide an efficient and user-friendly experience for searching and displaying images.
 
@@ -15,7 +15,7 @@ This is a simple website that allows users to search for images. The website is 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/searching-images.git
+   git clone https://github.com/nandasafiqalfiansyah/searcing-image
    ```
 
 2. Navigate to the project directory:
@@ -27,13 +27,7 @@ This is a simple website that allows users to search for images. The website is 
 3. Install the dependencies using NPM:
 
    ```bash
-   npm install
-   ```
-
-4. Build the project using Webpack:
-
-   ```bash
-   npm run build
+   npm i
    ```
 
 ## Usage
