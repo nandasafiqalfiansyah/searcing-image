@@ -1,7 +1,7 @@
 {
-  "name": "proyek-front-end",
+  "name": "searcing-image",
   "version": "1.0.0",
-  "description": "website to searcing",
+  "description": "This is a simple website that allows users to search for images. The website is built using NPM, Webpack, and other tools to provide an efficient and user-friendly experience for searching and displaying images.",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
