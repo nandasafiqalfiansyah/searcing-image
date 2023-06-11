@@ -326,5 +326,8 @@
   "bugs": {
     "url": "https://github.com/nandasafiqalfiansyah/searcing-image/issues"
   },
-  "homepage": "https://github.com/nandasafiqalfiansyah/searcing-image#readme"
+  "homepage": "https://github.com/nandasafiqalfiansyah/searcing-image#readme",
+  "keywords": [
+    "webpack"
+  ]
 }
