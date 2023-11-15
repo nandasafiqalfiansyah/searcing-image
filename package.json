@@ -4,7 +4,7 @@
   "description": "This is a simple website that allows users to search for images. The website is built using NPM, Webpack, and other tools to provide an efficient and user-friendly experience for searching and displaying images.",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "author": "nanda safiq alfiansyah",
